@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ngx-components": [
+        "dist/ngx-components/ngx-components",
+        "dist/ngx-components"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
